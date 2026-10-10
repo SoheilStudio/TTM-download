@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TTM Download Center</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Tahoma, Arial, sans-serif;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background:
+        linear-gradient(rgba(2, 13, 32, .55),
+                        rgba(2, 13, 32, .78)),
+        url("background.png") center / cover fixed,
+        #061a30;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 540px;
+      text-align: center;
+      padding: 42px 28px;
+      border: 1px solid rgba(255,255,255,.2);
+      border-radius: 24px;
+      background: rgba(4, 22, 43, .78);
+      box-shadow: 0 20px 70px rgba(0,0,0,.35);
+      backdrop-filter: blur(12px);
+    }
+
+    .logo {
+      font-size: 14px;
+      letter-spacing: 3px;
+      color: #48e5f4;
+      direction: ltr;
+    }
+
+    h1 { font-size: 29px; margin: 22px 0 12px; }
+    p { color: #c3d7e5; line-height: 2; }
+
+    .download {
+      display: block;
+      margin-top: 28px;
+      padding: 17px 20px;
+      border-radius: 12px;
+      color: white;
+      background: linear-gradient(100deg, #087eae, #06b6a8);
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      transition: transform .2s, filter .2s;
+    }
+
+    .download:hover {
+      transform: translateY(-3px);
+      filter: brightness(1.12);
+    }
+
+    .source {
+      margin-top: 24px;
+      font-size: 12px;
+      overflow-wrap: anywhere;
+    }
+
+    .source a { color: #76dce9; }
+    footer { margin-top: 28px; font-size: 12px; color: #9bb3c7; }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <div class="logo">SOHEIL DOWNLOAD CENTER</div>
+
+    <h1>مرکز دانلود نرم‌افزار</h1>
+    <p>
+      برای دریافت فایل ZIP روی دکمه زیر کلیک کنید.
+      قبل از نصب، از معتبر بودن فایل اطمینان حاصل کنید.
+    </p>
+
+    <a class="download"
+       href="https://supportgn.gnonlineservices.com/downloads/beltone/solusmax_2.0.132.26_releaseversion.zip"
+       target="_blank"
+       rel="noopener noreferrer">
+      ⬇ دانلود فایل ZIP
+    </a>
+
+    <div class="source">
+      منبع فایل:
+      <a href="https://supportgn.gnonlineservices.com/downloads/beltone/solusmax_2.0.132.26_releaseversion.zip"
+         target="_blank" rel="noopener noreferrer">
+        مشاهده آدرس دانلود
+      </a>
+    </div>
+
+    <footer>Independent download page • Soheil</footer>
+  </main>
+</body>
+</html>
